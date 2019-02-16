@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Analysis and Visuals</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap_style2.css">
+  <link rel="stylesheet" href="style2.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude Weather Analysis</a>
+            </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="temp.html">Latitude vs. Temperature</a></li>
+            <li><a href="humidity.html">Latitude vs. Humidity</a></li>
+            <li><a href="cloudiness.html">Latitude vs. Cloudiness</a></li>
+            <li><a href="windspeed.html">Latitude vs. Windspeed</a></li>
+            </ul>
+        </li>
+            <li><a href="comparisons.html">Comparisons</a></li>
+            <li><a href="all_data.html">Dive into the Data</a></li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+
+<div class="container">
+    <div class="text-center"><h1>Project Summary: Latitude's Influence</h1></br></div></div>
+<div class = "text-box">
+<div class = "row">
+    <div class="col-md-6"><p> Weather across the globe varies widely. Temperature, humidity, cloud coverage, and wind speed all factor into how weather in 
+            different cities feel. The humidity in NC can make an 80 degree day feel a lot hotter than an 80 degree day on the west coast, where humidity is less of a factor. 
+            What if we compare two cities closer or farther to the equator?  Are maximum temperatures for both cities relatively the same, or do they vary? 
+            What about cloud coverage, humidity, and wind speed? </br>
+        </br>To understand the differences in weather across the globe, a random sample of cities were chosen using latitudinal and longitudinal coordinates to 
+        allow a comparison of maximum temperature, humidity, cloud coverage, and wind speed. </br>
+        </br>The Plots tab will take you to each individual analysis, while the Comparisons page will let you look at all four weather conditions next to each other. 
+        Check out Dive into the Data to see the cities chosen!</br>
+        </p></div>
+        <div class="col-md-6"><div class = "images"><img src='Data_and_Images/world_map_2.gif' alt="World map with latitudinal and longitudinal lines"/>
+        <img src = "Data_and_Images/lat_long.gif" alt="Latitude and longitude explanation"/>
+        </div></div></div>
+
+
+    </div>
+</div>
+</div>
+
+
+</body>
