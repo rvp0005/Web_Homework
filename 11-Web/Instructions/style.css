@@ -9,8 +9,8 @@
     font-size: 40pt;
 }
 .container-fluid{
-    background-color: #111e68;
-    border-color: #2F3E48;
+    background-color: #2235a3;
+    border-color: #111e68;
     font-size: 14pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -38,3 +38,6 @@
 .images{
     background-color: white
 }
+
+
+@media (max-width: 480px)
